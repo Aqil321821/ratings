@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ratings</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card bg-light border-0 shadow-lg rounded-4 mt-5">
+            <div class="card-body">
+                <!-- 1st row section -->
+                <div class="row p-4">
+                    <div class="col-8">
+                        <h3 class="fw-bold">What Our Customer Thinks About This Product</h3>
+                    </div>
+                    <div class="col-4">
+                        <div class="card  border-0  rounded-1">
+                            <div class="card-body">
+                                <h3 class="fw-bold display-6 text-center">
+                                    <i class="fas fa-star text-warning"></i>4.8
+                                </h3>
+                                <p class="text-center fw-medium">Average Rating</p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                <!-- search bar -->
+               <div class="row px-5 mb-1">
+                <div class="col-12">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text rounded-start-5">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input type="text" class="form-control rounded-end-5" placeholder="Search Reviews">
+                       
+                    </div>
+                </div>
+               </div>
+               <!-- Rating bars -->
+               <div class="row p-5">
+                 <div class="col-12 vstack gap-1">
+                    <h4>Ratings</h4>
+                    <div class="d-flex align-items-center gap-1">
+                        <span class="fw-bolder fs-4">5</span>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- outside layer of bar -->
+                        <div class="progress ms-3" style="width: 100%; height:10px">
+                            <!-- inner layer of bar -->
+                            <div class="progress-bar bg-warning"  style="width: 80%;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-1">
+                        <span class="fw-bolder fs-4">4</span>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- outside layer of bar -->
+                        <div class="progress ms-3" style="width: 100%; height:10px">
+                            <!-- inner layer of bar -->
+                            <div class="progress-bar bg-warning"  style="width: 70%;" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-1">
+                        <span class="fw-bolder fs-4">3</span>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- outside layer of bar -->
+                        <div class="progress ms-3" style="width: 100%; height:10px">
+                            <!-- inner layer of bar -->
+                            <div class="progress-bar bg-warning"  style="width: 60%;" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-1">
+                        <span class="fw-bolder fs-4">2</span>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- outside layer of bar -->
+                        <div class="progress ms-3" style="width: 100%; height:10px">
+                            <!-- inner layer of bar -->
+                            <div class="progress-bar bg-warning"  style="width: 65%;" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-1">
+                        <span class="fw-bolder fs-4">1</span>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- outside layer of bar -->
+                        <div class="progress ms-3" style="width: 100%; height:10px">
+                            <!-- inner layer of bar -->
+                            <div class="progress-bar bg-warning"  style="width: 50%;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+
+                 </div>
+               </div>
+               <div class="row px-5 pb-5">
+                <div class="col-12">
+                    <a href="#" class="btn btn-success btn-lg rounded-5">Write Review</a>
+                </div>
+               
+               </div>
+               
+            </div>
+           
+        </div>
+    
+    </div>
+
+
+
+
+
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
